@@ -1,0 +1,17 @@
+﻿<DockPanel x:Class="WPF_DataBinding.UserDockPanel"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+           xmlns:local="clr-namespace:SDKSample">
+    <DockPanel.Resources>
+        <local:MyData x:Key="myDataSource"/>
+    </DockPanel.Resources>
+    <DockPanel.DataContext>
+        <Binding Source="{StaticResource mydataSource}"/>
+    </DockPanel.DataContext>
+    <Button Background="{Binding Path=ColorName}"
+            Width="150" Height="30">
+        I am bound to be RED!
+    </Button>
+</DockPanel>

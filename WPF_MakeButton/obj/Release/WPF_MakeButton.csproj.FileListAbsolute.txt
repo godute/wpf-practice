@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\bin\Release\WPF_MakeButton.exe.config
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\bin\Release\WPF_MakeButton.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\bin\Release\WPF_MakeButton.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\App.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton_MarkupCompile.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton_MarkupCompile.lref
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\MainWindow.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton.g.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\WPF_MakeButton.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MakeButton\obj\Release\App.baml
