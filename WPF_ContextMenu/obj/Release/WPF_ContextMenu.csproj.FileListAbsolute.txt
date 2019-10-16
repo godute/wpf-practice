@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\App.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu_MarkupCompile.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu_MarkupCompile.lref
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\bin\Release\WPF_ContextMenu.exe.config
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\bin\Release\WPF_ContextMenu.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\bin\Release\WPF_ContextMenu.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\MainWindow.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu.g.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ContextMenu\obj\Release\WPF_ContextMenu.pdb

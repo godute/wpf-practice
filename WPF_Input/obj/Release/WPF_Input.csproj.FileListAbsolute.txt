@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\bin\Release\WPF_Input.exe.config
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\bin\Release\WPF_Input.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\bin\Release\WPF_Input.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\App.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input_MarkupCompile.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input_MarkupCompile.lref
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\MainWindow.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input.g.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Input\obj\Release\WPF_Input.pdb

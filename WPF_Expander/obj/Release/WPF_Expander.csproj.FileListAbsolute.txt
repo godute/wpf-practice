@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\bin\Release\WPF_Expander.exe.config
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\bin\Release\WPF_Expander.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\bin\Release\WPF_Expander.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\App.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander_MarkupCompile.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander_MarkupCompile.lref
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\MainWindow.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander.g.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Expander\obj\Release\WPF_Expander.pdb
