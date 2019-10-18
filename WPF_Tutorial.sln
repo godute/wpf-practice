@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_DragDrop", "WPF_DragDro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Expander", "WPF_Expander\WPF_Expander.csproj", "{89BBFA13-0172-4F44-B1C6-2F28919268EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_DependencyProperty", "WPF_DependencyProperty\WPF_DependencyProperty.csproj", "{8A4F8865-9960-43CB-B7CB-FA1D53CC7C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ListBox", "WPF_ListBox\WPF_ListBox.csproj", "{D22A03C8-984B-4B1A-9D46-279A12E79E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_MenuItem", "WPF_MenuItem\WPF_MenuItem.csproj", "{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +87,18 @@ Global
 		{89BBFA13-0172-4F44-B1C6-2F28919268EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89BBFA13-0172-4F44-B1C6-2F28919268EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89BBFA13-0172-4F44-B1C6-2F28919268EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4F8865-9960-43CB-B7CB-FA1D53CC7C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4F8865-9960-43CB-B7CB-FA1D53CC7C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4F8865-9960-43CB-B7CB-FA1D53CC7C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4F8865-9960-43CB-B7CB-FA1D53CC7C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D22A03C8-984B-4B1A-9D46-279A12E79E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22A03C8-984B-4B1A-9D46-279A12E79E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22A03C8-984B-4B1A-9D46-279A12E79E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22A03C8-984B-4B1A-9D46-279A12E79E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

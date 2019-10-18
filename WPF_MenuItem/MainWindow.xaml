@@ -1,0 +1,36 @@
+﻿<Window x:Class="WPF_MenuItem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_MenuItem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu x:Name="mainMenu" >
+            <MenuItem Header="기업정보">
+                <MenuItem Header="기업개요">
+                    <MenuItem Header="기업소개"/>
+                    <MenuItem Header="포스코그룹비전"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="사업분야">
+
+            </MenuItem>
+
+            <MenuItem Header="투자정보">
+
+            </MenuItem>
+            <MenuItem Header="PR센터">
+
+            </MenuItem>
+            <MenuItem Header="고객지원">
+
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

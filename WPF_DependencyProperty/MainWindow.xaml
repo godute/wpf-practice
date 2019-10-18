@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPF_DependencyProperty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_DependencyProperty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="149*"/>
+            <RowDefinition Height="113*"/>
+        </Grid.RowDefinitions>
+        <Label Margin="54,17,42,0" Name="label0" Height="28.5" VerticalAlignment="Top">
+            텍스트 박스의 값을 변경하세요
+        </Label>
+        <TextBox Margin="65,62,66,63" x:Name="textBox1" Text="TEXTBOX"/>
+        <Button Margin="100, 0,103,14" x:Name="btnChange" Click="BtnChange_Click" Height="22.5"
+                VerticalAlignment="Bottom" IsDefault="True">변경</Button>
+        <Label Grid.Row="1" Margin="20,30,0,0" Name="label1" Height="28.5" VerticalAlignment="Top"
+               HorizontalAlignment="Left" Width="74"> OldName : </Label>
+        <Label Grid.Row="1" Margin="20,0,0,26" Name="label2" Height="28.5" VerticalAlignment="Bottom"
+               HorizontalAlignment="Left" Width="74">NewName : </Label>
+        <TextBlock Grid.Row="1" Height="21" Margin="100,34,58,0" x:Name=""
+    </Grid>
+</Window>

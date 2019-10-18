@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\bin\Release\WPF_MenuItem.exe.config
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\bin\Release\WPF_MenuItem.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\bin\Release\WPF_MenuItem.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\App.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem_MarkupCompile.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem_MarkupCompile.lref
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\App.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\MainWindow.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem.g.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_MenuItem\obj\Release\WPF_MenuItem.pdb

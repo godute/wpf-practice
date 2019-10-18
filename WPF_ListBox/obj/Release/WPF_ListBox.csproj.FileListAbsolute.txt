@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\bin\Release\WPF_ListBox.exe.config
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\bin\Release\WPF_ListBox.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\bin\Release\WPF_ListBox.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\App.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox_MarkupCompile.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox_MarkupCompile.lref
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\MainWindow.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox.g.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ListBox\obj\Release\WPF_ListBox.pdb
