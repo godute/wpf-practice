@@ -1,0 +1,15 @@
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\bin\Debug\WPF_Window.exe.config
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\bin\Debug\WPF_Window.exe
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\bin\Debug\WPF_Window.pdb
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window.csprojAssemblyReference.cache
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\MainWindow.g.cs
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\App.g.cs
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window_MarkupCompile.cache
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window_MarkupCompile.lref
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\MainWindow.baml
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window.g.resources
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window.Properties.Resources.resources
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window.csproj.GenerateResource.cache
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window.csproj.CoreCompileInputs.cache
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window.exe
+C:\Users\wjddn\Desktop\wpf-practice\WPF_Window\obj\Debug\WPF_Window.pdb

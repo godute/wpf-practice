@@ -1,0 +1,16 @@
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\bin\Debug\WPF_Popup.exe.config
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\bin\Debug\WPF_Popup.exe
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\bin\Debug\WPF_Popup.pdb
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup.csprojAssemblyReference.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\MainWindow.g.cs
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\App.g.cs
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup_MarkupCompile.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup_MarkupCompile.lref
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\MainWindow.baml
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup.g.resources
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup.Properties.Resources.resources
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup.csproj.GenerateResource.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup.csproj.CoreCompileInputs.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup.exe
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\WPF_Popup.pdb
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Popup\obj\Debug\App.baml

@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:WPF_Window"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Border Name="_topHeaderBorder">
+        <Grid>
+            <ContentPresenter Name="_topHeaderPresenter" ContentSource="Header" HorizontalAlignment="Center"
+                                      RecognizesAccessKey="True"/>
+            <Border Name="_temp" Visibility="Hidden" BorderThickness="2"/>
+            <Border Name="_border" Visibility="Collapsed" BorderBrush="#FF1158B1" BorderThickness="2"
+                            Width="{Binding ElementName=_topHeaderPresenter, Path=ActualWidth}"/>
+            
+        </Grid>
+    </Border>
+
 </Window>

@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_MenuItem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_MenuItem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu >
+            <MenuItem Header="menu1">
+                <MenuItem Header="menu1_1">
+                    <MenuItem Header="menu1_1_1"/>
+                </MenuItem>
+
+                <MenuItem Header="menu1_2">
+                    <MenuItem Header="menu1_2_1"/>
+                    <MenuItem Header="menu1_2_2"/>
+                </MenuItem>
+                
+            </MenuItem>
+
+            <MenuItem Header="menu2">
+                <MenuItem Header="menu2_1"/>
+                <MenuItem Header="menu2_2"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

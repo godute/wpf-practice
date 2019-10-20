@@ -1,0 +1,17 @@
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\bin\Debug\WPF_Style.exe.config
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\bin\Debug\WPF_Style.exe
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\bin\Debug\WPF_Style.pdb
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style.csprojAssemblyReference.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\MainWindow.g.cs
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\App.g.cs
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style_MarkupCompile.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style_MarkupCompile.lref
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\App.baml
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\Dictionary1.baml
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\MainWindow.baml
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style.g.resources
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style.Properties.Resources.resources
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style.csproj.GenerateResource.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style.csproj.CoreCompileInputs.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style.exe
+C:\Users\wjddn\source\repos\WPF_Style\WPF_Style\obj\Debug\WPF_Style.pdb

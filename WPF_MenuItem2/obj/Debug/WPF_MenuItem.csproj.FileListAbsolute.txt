@@ -1,0 +1,16 @@
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\bin\Debug\WPF_MenuItem.exe.config
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\bin\Debug\WPF_MenuItem.exe
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\bin\Debug\WPF_MenuItem.pdb
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem.csprojAssemblyReference.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\MainWindow.g.cs
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\App.g.cs
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem_MarkupCompile.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem_MarkupCompile.lref
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\App.baml
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\MainWindow.baml
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem.g.resources
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem.Properties.Resources.resources
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem.csproj.GenerateResource.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem.csproj.CoreCompileInputs.cache
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem.exe
+C:\Users\wjddn\source\repos\WPF_Style\WPF_MenuItem\obj\Debug\WPF_MenuItem.pdb
