@@ -33,6 +33,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ListBox", "WPF_ListBox\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_MenuItem", "WPF_MenuItem\WPF_MenuItem.csproj", "{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Frame", "WPF_Frame\WPF_Frame.csproj", "{FE17FDF3-FAC9-4768-B69D-64B312B5988D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Popup", "WPF_Popup\WPF_Popup.csproj", "{CC424D36-1F64-45FB-B1FE-66B3CEA60586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_TrayIcon", "WPF_TrayIcon\WPF_TrayIcon.csproj", "{959FF325-804F-4F18-B06F-24FCC586FB96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ResizeWindow", "WPF_ResizeWindow\WPF_ResizeWindow.csproj", "{C6BDA051-2CC2-469C-905C-230DD4701571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ObservableCollection", "WPF_ObservableCollection\WPF_ObservableCollection.csproj", "{00039774-3C23-4536-B56B-8048D1E95D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Treeview", "WPF_Treeview\WPF_Treeview.csproj", "{3FD9B2C1-F856-4C32-A3FD-9DFCF68C00D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Notebook", "WPF_Notebook\WPF_Notebook.csproj", "{45D07476-A902-4AB9-9D2E-720DF739ABFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +113,34 @@ Global
 		{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C94E0419-ABCC-4E84-9E01-C4D73BB9358B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE17FDF3-FAC9-4768-B69D-64B312B5988D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE17FDF3-FAC9-4768-B69D-64B312B5988D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE17FDF3-FAC9-4768-B69D-64B312B5988D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE17FDF3-FAC9-4768-B69D-64B312B5988D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC424D36-1F64-45FB-B1FE-66B3CEA60586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC424D36-1F64-45FB-B1FE-66B3CEA60586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC424D36-1F64-45FB-B1FE-66B3CEA60586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC424D36-1F64-45FB-B1FE-66B3CEA60586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959FF325-804F-4F18-B06F-24FCC586FB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959FF325-804F-4F18-B06F-24FCC586FB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959FF325-804F-4F18-B06F-24FCC586FB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959FF325-804F-4F18-B06F-24FCC586FB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BDA051-2CC2-469C-905C-230DD4701571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BDA051-2CC2-469C-905C-230DD4701571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BDA051-2CC2-469C-905C-230DD4701571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BDA051-2CC2-469C-905C-230DD4701571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00039774-3C23-4536-B56B-8048D1E95D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00039774-3C23-4536-B56B-8048D1E95D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00039774-3C23-4536-B56B-8048D1E95D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00039774-3C23-4536-B56B-8048D1E95D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD9B2C1-F856-4C32-A3FD-9DFCF68C00D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD9B2C1-F856-4C32-A3FD-9DFCF68C00D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD9B2C1-F856-4C32-A3FD-9DFCF68C00D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD9B2C1-F856-4C32-A3FD-9DFCF68C00D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D07476-A902-4AB9-9D2E-720DF739ABFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D07476-A902-4AB9-9D2E-720DF739ABFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D07476-A902-4AB9-9D2E-720DF739ABFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D07476-A902-4AB9-9D2E-720DF739ABFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

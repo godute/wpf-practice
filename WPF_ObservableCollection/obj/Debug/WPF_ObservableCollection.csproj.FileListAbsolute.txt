@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\bin\Debug\WPF_ObservableCollection.exe.config
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\bin\Debug\WPF_ObservableCollection.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\bin\Debug\WPF_ObservableCollection.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection_MarkupCompile.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection_MarkupCompile.lref
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection.g.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection.exe
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_ObservableCollection\obj\Debug\WPF_ObservableCollection.pdb

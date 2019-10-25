@@ -4,51 +4,33 @@
              xmlns:local="clr-namespace:WPF_Popup"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style TargetType="{x:Type ContentControl}">
-            <Setter Property="ContentTemplate">
+        <!--Style x:Key="btn" TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="Black"/>
+
+            <Setter Property="Template">
                 <Setter.Value>
-                    <DataTemplate>
-                        <Border BorderThickness="0">
-                            <StackPanel Orientation="Vertical">
-                                
-                            </StackPanel>
+                    <ControlTemplate>
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid>
+                                <ContentPresenter Name="_presenter"/>
+                                <Popup Name="popup"
+                                   PlacementTarget="{Binding ElementName=_presenter}"
+                                   Placement="Bottom">
+                                    <StackPanel>
+                                        <Label>Popup Window</Label>
+                                    </StackPanel>
+                                </Popup>
+                            </Grid>
                         </Border>
-                    </DataTemplate>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="popup" Property="IsOpen" Value="True"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
                 </Setter.Value>
             </Setter>
-        </Style>
-        <Style x:Key="PopupContentStyle" TargetType="{x:Type ContentControl}">
-            <Setter Property="ContentTemplate">
-                <Setter.Value>
-                    <DataTemplate>
-
-                        <Grid Width="Auto" Height="Auto" Background="Gray">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="30"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <Border BorderThickness="2" CornerRadius="8" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.RowSpan="2">
-                                <Border.BorderBrush>
-                                    <SolidColorBrush Color="Gray"/>
-                                </Border.BorderBrush>
-                                <Border.Background>
-                                    <SolidColorBrush Color="White"/>
-                                </Border.Background>
-                            </Border>
-
-                            <StackPanel Grid.Row="0">
-                                <Label Foreground="Blue" Content="Popup_Title"/>
-                            </StackPanel>
-
-                            <GroupBox Grid.Row="1" Header="Popup example content">
-                                <StackPanel>
-                                    <ContentPresenter />
-                                </StackPanel>
-                            </GroupBox>
-                        </Grid>
-                    </DataTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
+        </-->
     </Application.Resources>
 </Application>

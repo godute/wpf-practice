@@ -1,0 +1,34 @@
+﻿<Application x:Class="WPF_Popup.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_Popup"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="btn" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid>
+                                <ContentPresenter Name="_presenter"/>
+                                <Popup Name="popup"
+                                   PlacementTarget="{Binding ElementName=_presenter}"
+                                   Placement="Bottom">
+                                    <StackPanel>
+                                        <Label>Popup Window</Label>
+                                    </StackPanel>
+                                </Popup>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="popup" Property="IsOpen" Value="True"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>
