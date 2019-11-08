@@ -1,0 +1,29 @@
+﻿<Page x:Class="Mini.Pages.FramePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mini.Pages"
+      mc:Ignorable="d" 
+      Width="320" Height="500"
+      Title="FramePage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="0" LastChildFill="False" Background="DarkCyan"
+                   >
+            <Button DockPanel.Dock="Top" Name="playBtn" Content="play"/>
+            <Button DockPanel.Dock="Top" Name="listBtn" Content="list"/>
+            <Button DockPanel.Dock="Top" Name="notiBtn" Content="notification"/>
+            <Button DockPanel.Dock="Top" Name="setBtn" Content="settings"/>
+            <Button DockPanel.Dock="Top" Name="infoBtn" Content="Info" Click="InfoBtn_Click"/>
+
+            <Button DockPanel.Dock="Bottom" Name="studioBtn" Content="S"/>
+            <Button DockPanel.Dock="Bottom" Name="workcenterBtn" Content="W"/>
+            <Button DockPanel.Dock="Bottom" Name="offBtn" Content="Off"/>
+        </DockPanel>
+        <Frame Grid.Column="1" Name="listFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Page>

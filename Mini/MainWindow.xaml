@@ -1,0 +1,52 @@
+﻿<Window x:Class="Mini.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mini"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        ResizeMode="CanResize"
+        MinWidth="320"
+        MinHeight="530"
+        
+        MaxWidth="483"
+        MaxHeight="800"
+        
+        Background="Transparent"
+        Title="MainWindow" Height="530" Width="320">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"
+                      ResizeBorderThickness="5"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Column ="0" Fill="Black" Height="30" Grid.ColumnSpan="3"
+                       PreviewMouseLeftButtonDown="Rectangle_PreviewMouseLeftButtonDown"/>
+            <Label Grid.Column="1" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch"
+                   HorizontalContentAlignment="Center" HorizontalAlignment="Stretch" Content="Mini" Foreground="Azure" />
+            <StackPanel Margin="0,0,10,0" Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="minimize_Btn" Width="20" Height="20" Content="_" Click="btn_Click"/>
+                <Button Name="maximize_Btn" Width="20" Height="20" Content="O" Click="btn_Click" />
+                <Button Name="close_Btn" Width="20" Height="20" Content="X" Click="btn_Click"/>
+            </StackPanel>
+        </Grid>
+        
+        <!-- Frame -->
+        <Border Grid.Row="1" Background="AliceBlue" VerticalAlignment="Top">
+            <Viewbox Stretch="Uniform">
+                <Frame Name="mainFrame" 
+                       NavigationUIVisibility="Hidden"/>
+            </Viewbox>
+        </Border>
+    </Grid>
+</Window>

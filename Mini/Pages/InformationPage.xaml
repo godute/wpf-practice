@@ -1,0 +1,21 @@
+﻿<Page x:Class="Mini.Pages.InformationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Mini.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="530" d:DesignWidth="320"
+      Title="InformationPage">
+
+
+    <StackPanel Margin="20, 20, 20, 0" >
+        <Button Content="X" HorizontalAlignment="Right"/>
+        <TextBlock Margin="0, 0, 0, 30" Text="Info" FontStyle="Oblique" FontSize="30"/>
+        <TextBlock Text="Account" Foreground="Gray" FontSize="20"/>
+        <TextBlock Text="Account" Foreground="Black" FontSize="30"/>
+
+        <TextBlock Margin="0, 30, 0, 0"  Text="NickName" Foreground="Gray" FontSize="20"/>
+        <TextBlock Text="NickName" Foreground="Black" FontSize="30"/>
+    </StackPanel>
+</Page>
