@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Mini.UserControls.ExpandButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Mini.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+
+    <UserControl.Resources>
+        <ControlTemplate x:Key="innerBtn" TargetType="{x:Type Button}">
+            <Grid>
+                <Ellipse Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" 
+                         Fill="DarkBlue" Stroke="Transparent"/>
+                <ContentPresenter Content="{TemplateBinding Content}"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="expandBtn" TargetType="{x:Type ToggleButton}">
+            <DockPanel LastChildFill="False">
+                <Grid DockPanel.Dock="Bottom">
+                    <Ellipse Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
+                         Fill="Gray" Stroke="Transparent"/>
+                    <ContentPresenter Content="{Binding Header}"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Center"/>
+                </Grid>
+                <ItemsControl DockPanel.Dock="Bottom" ItemsSource="{Binding SubMenu}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Margin="3" Template="{StaticResource innerBtn}"
+                                    Content="{Binding btnContent}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </DockPanel>
+        </ControlTemplate>
+    </UserControl.Resources>
+    
+</UserControl>

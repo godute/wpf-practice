@@ -2,13 +2,290 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Mini"
-             StartupUri="MainWindow.xaml">
+             Startup="Application_Startup"
+             >
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="ResourceDictionary.xaml"/>
-                <ResourceDictionary Source="ListViewDictionary.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+        <Style x:Key="expandBtnStyle" TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="10"/>
+            <Setter Property="Height" Value="50"/>
+            <EventSetter Event="PreviewMouseLeftButtonDown" Handler="Button_PreviewMouseLeftButtonDown"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Rectangle Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
+                                   Fill="Black"/>
+                            <Polygon Points="5, 5, 7, 7, 5, 10"
+                                 Fill="Blue"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="notiListViewItemStyle" TargetType="{x:Type ListViewItem}">
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Content" Value="Content"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ListViewItem}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20"/>
+                                <RowDefinition Height="40"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="3"/>
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="{Binding header}"/>
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding body}"/>
+                            <Button Grid.Row="0" Grid.Column="1" Content="X"/>
+                            <Button Name="expandBtn" Grid.Row="0" Grid.RowSpan="2" Grid.Column="2" 
+                                Style="{StaticResource expandBtnStyle}"/>
+
+                            <Popup Name="popup"
+                               PlacementTarget="{Binding ElementName=expandBtn}"
+                               Placement="Right">
+                                <Grid>
+                                    <Border BorderBrush="Black" BorderThickness="2"/>
+                                    <TextBlock Name="_text" Height="60" Width="200" 
+                                    Background="LightGray"
+                                    TextWrapping="Wrap">
+                                    Popup window
+                                    </TextBlock>
+                                </Grid>
+                            </Popup>
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=expandBtn, Path=IsPressed}">
+                                <Setter TargetName="popup" Property="IsOpen" Value="True"/>
+                            </DataTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="notiListViewStyle" TargetType="{x:Type ListView}">
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="ItemContainerStyle" Value="{StaticResource notiListViewItemStyle}"/>
+        </Style>
+
+        <Style x:Key="scheduleTypeButton" TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Rectangle Name="typeRect"
+                                       Width="30" Height="30"
+                                       Fill="Gray"
+                                       StrokeThickness="2"/>
+                            <ContentPresenter Name="presenter"
+                                              Content="L"
+                                              HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              TextBlock.Foreground="White"
+                                              TextBlock.FontSize="12"
+                                              />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <DataTrigger Binding="{Binding IsLocal}" Value="False">
+                                <Setter TargetName="typeRect" Property="Fill" Value="Blue"/>
+                                <Setter TargetName="presenter" Property="Content" Value="WC"/>
+                            </DataTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="expanderStyle" TargetType="{x:Type Expander}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Expander}">
+                        <Grid>
+                            <TextBlock Text="{Binding Days}"/>
+                            <ItemsControl ItemsSource="{Binding Lists}" Visibility="Visible">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="activityListViewItemStyle" TargetType="{x:Type ListViewItem}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ListViewItem}">
+                        <Grid Margin="10, 20, 0, 0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Text="{Binding Key}"
+                                       FontSize="14"
+                                       FontFamily="Bold"
+                                       Foreground="Black"/>
+                            <ItemsControl Grid.Row="1" ItemsSource="{Binding Value}"
+                                          Margin="10, 10, 0, 0">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Name="border"
+                                                BorderBrush="Black" BorderThickness="1.0"
+                                                Background="White">
+                                            <Grid Name="grid">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="50"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="Auto"/>
+
+                                                </Grid.ColumnDefinitions>
+                                                <Button Style="{StaticResource scheduleTypeButton}"
+                                                        Grid.Column="0"
+                                                        Tag="{Binding IsLocal}"/>
+                                                <TextBlock Grid.Column="1"
+                                                           HorizontalAlignment="Left"
+                                                           VerticalAlignment="Center"
+                                                           FontStretch="Normal"
+                                                           FontSize="15"
+                                                           Text="{Binding Name}">
+                                                    
+                                                </TextBlock>
+                                                <Ellipse Grid.Column="2" Fill="Green"
+                                                         Name="playEllipse"
+                                                         Width="20" Height="20"
+                                                         Visibility="Hidden"/>
+                                                <Ellipse Grid.Column="3" Fill="Black" 
+                                                         Name="deleteEllipse"
+                                                         Width="20" Height="20"
+                                                         Visibility="Hidden"/>
+                                            </Grid>
+                                        </Border>
+                                        <DataTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter TargetName="border" Property="BorderBrush" Value="Green"/>
+                                                <Setter TargetName="border" Property="BorderThickness" Value="2.0"/>
+                                                <Setter TargetName="playEllipse" Property="Visibility" Value="Visible"/>
+                                                <Setter TargetName="deleteEllipse" Property="Visibility" Value="Visible"/>
+                                            </Trigger>
+                                        </DataTemplate.Triggers>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <Style x:Key="activityListViewStyle" TargetType="{x:Type ListView}">
+            <Setter Property="ItemContainerStyle" Value="{StaticResource activityListViewItemStyle}"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="ScrollViewer.CanContentScroll" Value="False"/>
+        </Style>
+
+        <ControlTemplate x:Key="innerBtn" TargetType="{x:Type Button}">
+            <Grid>
+                <Ellipse Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" 
+                         Fill="DarkBlue" Stroke="Transparent"/>
+                <ContentPresenter Content="{TemplateBinding Content}"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Center"
+                                  TextBlock.Foreground="White"/>
+            </Grid>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="expandBtn" TargetType="{x:Type ToggleButton}">
+            <DockPanel LastChildFill="False">
+                <Grid DockPanel.Dock="Bottom"
+                      RenderTransformOrigin="0.5, 0.5">
+                    <Button Name="addBtn" Template="{StaticResource innerBtn}"
+                            Content="Add" Width="50" Height="50">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Button Name="delBtn" Template="{StaticResource innerBtn}"
+                            Content="Delete" Width="50" Height="50">
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
+                    <Grid Name="grid"
+                          RenderTransformOrigin="0.5, 0.5">
+                        <Ellipse Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
+                         Fill="Gray" Stroke="Transparent"/>
+                        <ContentPresenter Content="{TemplateBinding Content}"
+                                      TextBlock.Foreground="White"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Center"/>
+                        <Grid.RenderTransform>
+                            <TransformGroup>
+                                <RotateTransform/>
+                            </TransformGroup>
+                        </Grid.RenderTransform>
+                    </Grid>
+                </Grid>
+            </DockPanel>
+            <ControlTemplate.Triggers>
+                <EventTrigger RoutedEvent="ToggleButton.Checked">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard Name="expand">
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="grid"
+                                                 Storyboard.TargetProperty=
+                                                 "(Grid.RenderTransform).(TransformGroup.Children)[0].(RotateTransform.Angle)"
+                                                 By="-90" Duration="0:0:0.2"/>
+                                <DoubleAnimation Storyboard.TargetName="addBtn"
+                                                 Storyboard.TargetProperty=
+                                                 "(Button.RenderTransform).(TransformGroup.Children)[0].(TranslateTransform.Y)"
+                                                 To="-50" Duration="0:0:0.2"/>
+                                <DoubleAnimation Storyboard.TargetName="delBtn"
+                                                 Storyboard.TargetProperty=
+                                                 "(Button.RenderTransform).(TransformGroup.Children)[0].(TranslateTransform.Y)"
+                                                 To="-100" Duration="0:0:0.2"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="ToggleButton.Unchecked">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard Name="unexpand">
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="grid"
+                                                 Storyboard.TargetProperty=
+                                                 "(Grid.RenderTransform).(TransformGroup.Children)[0].(RotateTransform.Angle)"
+                                                 By="90" Duration="0:0:0.2"/>
+                                <DoubleAnimation Storyboard.TargetName="addBtn"
+                                                 Storyboard.TargetProperty=
+                                                 "(Button.RenderTransform).(TransformGroup.Children)[0].(TranslateTransform.Y)"
+                                                 To="0" Duration="0:0:0.2"/>
+                                <DoubleAnimation Storyboard.TargetName="delBtn"
+                                                 Storyboard.TargetProperty=
+                                                 "(Button.RenderTransform).(TransformGroup.Children)[0].(TranslateTransform.Y)"
+                                                 To="0" Duration="0:0:0.2"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
     </Application.Resources>
 </Application>

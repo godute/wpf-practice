@@ -12,17 +12,29 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Mini.Model;
+using Mini.ViewModel;
 
 namespace Mini.Pages
 {
     /// <summary>
     /// MyListPage.xaml에 대한 상호 작용 논리
     /// </summary>
+    /// 
+    
     public partial class MyListPage : Page
     {
-        public MyListPage()
+        private MainWindow mainWindow;
+        public MyListViewModel viewmodel;
+        public MyListPage(MainWindow window)
         {
+            this.mainWindow = window;
             InitializeComponent();
+            viewmodel = new MyListViewModel(window);
+            this.DataContext = viewmodel;
+
         }
+        
     }
+    
 }

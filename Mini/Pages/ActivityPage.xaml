@@ -9,6 +9,14 @@
       Title="ActivityPage">
 
     <Grid>
-        <Label>Activity Page</Label>
+        <ListView Style="{StaticResource activityListViewStyle}"
+                  ItemsSource="{Binding Dicts, Mode=TwoWay,
+                                        UpdateSourceTrigger=PropertyChanged}"
+                  Margin="10, 0, 0, 0"/>
+        <Button Template="{StaticResource innerBtn}"
+                Content="Clear All"
+                Width="50" Height="50"
+                Margin="170, 430,0,0"
+                />
     </Grid>
 </Page>

@@ -32,10 +32,13 @@
                
                
               Placement="AbsolutePoint">
+            <Border BorderBrush="Black" BorderThickness="2">
             <TextBlock Name="_text" Height="60" Width="200" 
                    Background="LightGray"
-                   TextWrapping="Wrap">Popup positioned by using
-        CustomPopupPlacement callback delegate</TextBlock>
+                   TextWrapping="Wrap">
+                Popup window
+            </TextBlock>
+            </Border>
         </Popup>
         <!--</SnippetCustomPlacement>-->
     </Grid>

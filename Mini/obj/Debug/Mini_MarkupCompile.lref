@@ -1,9 +1,14 @@
 ﻿
 FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\App.xaml;;
+FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\ButtonDictionary.xaml;;
+FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\ListViewDictionary.xaml;;
 FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\MainWindow.xaml;;
 FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\Pages\ActivityPage.xaml;;
 FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\Pages\FramePage.xaml;;
-FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\Pages\LoginPage.xaml;;
-FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\ResourceDictionary.xaml;;
 FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\Pages\InformationPage.xaml;;
+FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\Pages\LoginPage.xaml;;
+FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\Pages\MyListPage.xaml;;
+FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\Pages\NotificationPage.xaml;;
+FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\ResourceDictionary.xaml;;
+FC:\Users\Administrator\source\repos\WPF_Tutorial\Mini\UserControls\ExpandButton.xaml;;
 

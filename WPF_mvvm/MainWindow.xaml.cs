@@ -23,6 +23,7 @@ namespace WPF_mvvm
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new ViewModel.MainViewModel();
         }
     }
 }

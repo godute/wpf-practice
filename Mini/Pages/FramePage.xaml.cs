@@ -28,10 +28,33 @@ namespace Mini.Pages
             listFrame.Navigate(this.mainWindow.activityPage);
         }
 
-        private void InfoBtn_Click(object sender, RoutedEventArgs e)
+        private void FramePageBtn_Click(object sender, RoutedEventArgs e)
         {
-            listFrame.Navigate(this.mainWindow.infoPage);
-            Panel.SetZIndex(this.mainWindow.infoPage, 10);
+            Button button = sender as Button;
+            switch(button.Name)
+            {
+                case "playBtn":
+                    listFrame.Navigate(this.mainWindow.activityPage);
+                    break;
+                case "listBtn":
+                    listFrame.Navigate(this.mainWindow.listPage);
+                    break;
+                case "notiBtn":
+                    listFrame.Navigate(this.mainWindow.notiPage);
+                    break;
+                case "setBtn":
+                    break;
+                case "infoBtn":
+                    listFrame.Navigate(this.mainWindow.infoPage);
+                    break;
+
+                case "studioBtn":
+                    break;
+                case "workcenterBtn":
+                    break;
+                case "offBtn":
+                    break;
+            }
         }
     }
 }

@@ -20,9 +20,26 @@ namespace WPF_Frame
     /// </summary>
     public partial class MainPage : Page
     {
+        private b1Pagexaml b1;
         public MainPage()
         {
+            b1 = new b1Pagexaml();
             InitializeComponent();
+        }
+
+        private void Btn1_Click(object sender, RoutedEventArgs e)
+        {
+            frames.Navigate(b1);
+        }
+
+        private void Btn2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn3_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

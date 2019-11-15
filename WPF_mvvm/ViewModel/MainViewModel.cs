@@ -4,21 +4,42 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 
 namespace WPF_mvvm.ViewModel
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        private int iNuml;
+        private int iNum;
         public int Number
         {
-            get { return iNuml; }
+            get { return iNum; }
             set
             {
-                iNuml = value;
+                int OldNum = iNum;
+                iNum = value;
+
                 OnPropertyChanged("Number");
+
+                if(iNum > 0 && iNum <11)
+                {
+                    OnPropertyChanged("PlusEnable");
+                    OnPropertyChanged("MinusEnable");
+                    PageContents = string.Format("{0} 페이지를 보고 있어요. ", iNum);
+                }
+                else
+                {
+                    MessageBox.Show("1~10 페이지만 입력 가능합니다.");
+                    iNum = OldNum;
+                    OnPropertyChanged("Number");
+                }
             }
+        }
+
+        public MainViewModel()
+        {
+            Number = 1;
         }
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName)
@@ -29,6 +50,10 @@ namespace WPF_mvvm.ViewModel
             }
 
         }
+        public bool MinusEnable
+        {
+            get { return Number > 1 ? true : false; }
+        }
         private ICommand minusCommand;
         public ICommand MinusCommand
         {
@@ -37,6 +62,31 @@ namespace WPF_mvvm.ViewModel
         private void Minus()
         {
             Number--;
+        }
+
+        public bool PlusEnable
+        {
+            get { return Number < 10 ? true : false; }
+        }
+        private ICommand plusCommand;
+        public ICommand PlusCommand
+        {
+            get { return (this.plusCommand) ?? (this.plusCommand = new DelegateCommand(Plus)); }
+        }
+        private void Plus()
+        {
+            Number++;
+        }
+
+        private string pageContent;
+        public string PageContents
+        {
+            get { return pageContent; }
+            set
+            {
+                pageContent = value;
+                OnPropertyChanged("PageContents");
+            }
         }
     }
 
@@ -67,6 +117,13 @@ namespace WPF_mvvm.ViewModel
         public void Execute(object o)
         {
             this.execute();
+        }
+        public void RaiseCanExecuteChanged()
+        {
+            if(this.CanExecuteChanged != null)
+            {
+                this.CanExecuteChanged(this, EventArgs.Empty);
+            }
         }
     }
 }

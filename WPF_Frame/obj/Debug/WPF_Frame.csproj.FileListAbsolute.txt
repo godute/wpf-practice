@@ -19,3 +19,5 @@ C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Frame\obj\Debug\WPF_Frame.c
 C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Frame\obj\Debug\WPF_Frame.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Frame\obj\Debug\WPF_Frame.exe
 C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Frame\obj\Debug\WPF_Frame.pdb
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Frame\obj\Debug\b1Pagexaml.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\WPF_Frame\obj\Debug\b1Pagexaml.baml

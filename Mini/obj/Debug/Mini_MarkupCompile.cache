@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\App.xaml
-6-1802799537
+11-1997667953
 
-9204099270
+15-1429240935
 13-1662647192
-MainWindow.xaml;Pages\ActivityPage.xaml;Pages\FramePage.xaml;Pages\InformationPage.xaml;Pages\LoginPage.xaml;ResourceDictionary.xaml;
+ButtonDictionary.xaml;ListViewDictionary.xaml;MainWindow.xaml;Pages\ActivityPage.xaml;Pages\FramePage.xaml;Pages\InformationPage.xaml;Pages\LoginPage.xaml;Pages\MyListPage.xaml;Pages\NotificationPage.xaml;ResourceDictionary.xaml;UserControls\ExpandButton.xaml;
 
 False
 

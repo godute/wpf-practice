@@ -8,10 +8,21 @@
         Title="MainWindow" Height="450" Width="800">
     <DockPanel>
         <ToolBar DockPanel.Dock="Top">
-            <Button Content="-" Width="50"></Button>
-            <Label Width="50" Background="Gray"></Label>
-            <Button Content="+" Width="50"></Button>
+            <Button Content="-" Width="50" 
+                    Command="{Binding MinusCommand}"
+                    IsEnabled="{Binding MinusEnable}"
+                    Margin="0,-1,0,1.4"></Button>
+            <TextBox Width="50" 
+                     Text="{Binding Number, 
+                            Mode=TwoWay,
+                            UpdateSourceTrigger=PropertyChanged}"
+                     Background="Gray"
+                     ></TextBox>
+            <Button Content="+" 
+                    Command="{Binding PlusCommand}"
+                    IsEnabled="{Binding PlusEnable}"
+                    Width="50"></Button>
         </ToolBar>
-        <TextBox></TextBox>
+        <TextBox Text="{Binding PageContents}"></TextBox>
     </DockPanel>
 </Window>

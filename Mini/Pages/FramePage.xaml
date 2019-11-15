@@ -14,16 +14,18 @@
         </Grid.ColumnDefinitions>
         <DockPanel Grid.Column="0" LastChildFill="False" Background="DarkCyan"
                    >
-            <Button DockPanel.Dock="Top" Name="playBtn" Content="play"/>
-            <Button DockPanel.Dock="Top" Name="listBtn" Content="list"/>
-            <Button DockPanel.Dock="Top" Name="notiBtn" Content="notification"/>
-            <Button DockPanel.Dock="Top" Name="setBtn" Content="settings"/>
-            <Button DockPanel.Dock="Top" Name="infoBtn" Content="Info" Click="InfoBtn_Click"/>
+            <Button DockPanel.Dock="Top" Name="playBtn" Content="play" Click="FramePageBtn_Click"/>
+            <Button DockPanel.Dock="Top" Name="listBtn" Content="list" Click="FramePageBtn_Click"/>
+            <Button DockPanel.Dock="Top" Name="notiBtn" Content="notification" Click="FramePageBtn_Click"/>
+            <Button DockPanel.Dock="Top" Name="setBtn" Content="settings" Click="FramePageBtn_Click"/>
+            <Button DockPanel.Dock="Top" Name="infoBtn" Content="Info" Click="FramePageBtn_Click"/>
 
             <Button DockPanel.Dock="Bottom" Name="studioBtn" Content="S"/>
             <Button DockPanel.Dock="Bottom" Name="workcenterBtn" Content="W"/>
             <Button DockPanel.Dock="Bottom" Name="offBtn" Content="Off"/>
         </DockPanel>
-        <Frame Grid.Column="1" Name="listFrame" NavigationUIVisibility="Hidden"/>
+        
+        <Frame Grid.Column="1" Name="listFrame" 
+               NavigationUIVisibility="Hidden"/>
     </Grid>
 </Page>

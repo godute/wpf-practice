@@ -17,6 +17,6 @@
             <Button Name="btnTwo" Width="80" Content="페이지 2" Click="BtnTwo_Click"/>
             
         </StackPanel>
-        <Frame Name="frame_content" Grid.Row="1" Source="MainPage.xaml" NavigationUIVisibility="Hidden"/>
+        <Frame Name="frame_content" Grid.Row="1" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

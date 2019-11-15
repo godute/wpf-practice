@@ -5,10 +5,32 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Mini.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="NotificationPage">
+      d:DesignHeight="500" d:DesignWidth="270"
+      Title="NotificationPage"
+      x:Name="_this">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="My RPA" Width="120"/>
+            <Button Content="Organization" Width="120"/>
+        </StackPanel>
+        <ListView Grid.Row="1" Style="{StaticResource notiListViewStyle}"
+                  ItemContainerStyle="{StaticResource notiListViewItemStyle}"
+                  ItemsSource="{Binding ElementName=_this, Path=items}"
+                  ScrollViewer.CanContentScroll ="False">
+
+        </ListView>
+
         
+        <ToggleButton Grid.Row="1" Template="{StaticResource expandBtn}"
+                      Name="expandBtn"
+                      Content="Expand"
+                      Width="50" Height="50"
+                      Margin="170, 400, 0, 0"
+                      Click="ToggleButton_Click"/>
     </Grid>
 </Page>

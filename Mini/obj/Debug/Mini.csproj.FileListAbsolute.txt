@@ -23,3 +23,11 @@ C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\App.baml
 C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\ResourceDictionary.baml
 C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\Pages\InformationPage.g.cs
 C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\Pages\InformationPage.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\Pages\MyListPage.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\Pages\NotificationPage.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\ListViewDictionary.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\Pages\MyListPage.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\Pages\NotificationPage.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\ButtonDictionary.baml
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\UserControls\ExpandButton.g.cs
+C:\Users\Administrator\source\repos\WPF_Tutorial\Mini\obj\Debug\UserControls\ExpandButton.baml

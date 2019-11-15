@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Mini.ViewModel;
 
 namespace Mini.Pages
 {
@@ -21,11 +22,13 @@ namespace Mini.Pages
     public partial class ActivityPage : Page
     {
         private MainWindow mainWindow;
+        public ActivityViewModel viewModel;
         public ActivityPage(MainWindow window)
         {
             InitializeComponent();
             this.mainWindow = window;
-            
+            this.viewModel = new ActivityViewModel(window);
+            this.DataContext = this.viewModel;
         }
     }
 }
